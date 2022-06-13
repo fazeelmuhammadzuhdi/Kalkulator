@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 
             val nilai_angka1 =  et_angka1.text.toString().toInt()
-            val nilai_angka2 =  et_angka1.text.toString().toInt()
+            val nilai_angka2 =  et_angka2.text.toString().toInt()
 
             tv_hasil.text = do_hitung_hasil(nilai_angka1,nilai_angka2)
 
